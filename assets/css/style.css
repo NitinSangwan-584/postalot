@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url(./root.css);
+
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.min-h {
+  min-height: 100vh;
+}
+
+.max-w-1140px {
+  max-width: 1140px;
+}
+
+.px-12px {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.col-6 {
+  width: 50%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.col-12 {
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.bg-img {
+  background-image: url(../img/Sign-in.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.sign-in {
+  padding-top: 48px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.pt-6 {
+  padding-top: 6px;
+}
+
+.justify-item-center {
+  justify-items: center;
+}
+
+.message-svg {
+  top: -1%;
+  left: 3%;
+}
+
+.lock-svg {
+  top: -1%;
+  left: 3%;
+}
+
+.eye-svg {
+  top: -1%;
+  right: 3%;
+}
+
+.email-input {
+  /* background-color: #F5F8FF; */
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: 1px solid #E4EAF7;
+  padding-left: 44px;
+  margin-top: 32px;
+  outline-color: var(--color-light-grey);
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.pt-12 {
+  padding-top: 12px;
+}
+
+.sign-in-btn {
+  text-align: center;
+  /* height: 48px; */
+  width: 100%;
+  padding: 14px 32px 14px 32px;
+  border-radius: 50px;
+  margin-top: 24px;
+  /* cursor: pointer; */
+  border: none;
+  background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
+}
+
+.remember-me {
+  text-align: left;
+  ;
+  cursor: pointer;
+}
+
+.forgot {
+  text-align: right;
+  cursor: pointer;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.border {
+  border: 1px solid #C9CFDB;
+}
+
+.mt-26 {
+  margin-top: 26px;
+}
+
+.or-continue {
+  text-align: right;
+  /* cursor: pointer; */
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.google-box {
+  max-width: 166px;
+  /* height: 41px; */
+  padding: 10px 16px 10px 16px;
+  /* gap: 10px; */
+  border-radius: 6px;
+  border: 1px solid #E4EAF7;
+  /* width: 100%; */
+}
+
+.google-box-text {
+  text-align: left;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+.facebook-svg {
+  top: 16%;
+  left: 5%;
+}
+
+.linkdin-svg {
+  top: 36%;
+  left: 5%;
+}
+
+.instagram-svg {
+  bottom: 32%;
+  left: 5%;
+}
+
+.twitter-svg {
+  bottom: 12%;
+  left: 5%;
+}
+
+.group-img {
+  top: 26%;
+  right: 2%;
+}
+
+/* .group-img-2 {
+  padding-top: 60px;
+  padding-left: 130px;
+} */
+
+.bg-img::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0%;
+  right: 0%;
+  background-image: url(../img/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.facebook-svg-2 {
+  left: -4%;
+  bottom: -30%;
+}
+
+.linkdin-svg-2 {
+  left: 25%;
+  bottom: -30%;
+}
+
+.instagram-svg-2 {
+  left: 55%;
+  bottom: -30%;
+}
+
+.twitter-svg-2 {
+  left: 85%;
+  bottom: -30%;
+}
+
+
+@media(max-width:1199.98px) {
+  .bg-img::after {
+    top: 100%;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width:1200px) {
+  .email-input {
+    max-width: 340px;
+  }
+
+  .sign-in-btn {
+    max-width: 340px;
+  }
+
+  .both {
+    max-width: 340px;
+  }
+
+  .continue-line {
+    max-width: 340px;
+  }
+
+  .google-box {
+    max-width: 166px;
+  }
+}
+
+@media (max-width:575.98px) {
+  .ellipse-img {
+    display: none;
+  }
+
+  .diamond-img {
+    display: none;
+  }
+
+  .line-img {
+    display: none;
+  }
+
+  .group-img {
+    display: none;
+  }
+
+  .group-img {
+    padding-top: 125px;
+    padding-left: 25px;
+  }
+
+  .bg-img::after {
+    top: 65%;
+    width: 100%;
+    height: 50%;
+  }
+
+  .facebook-svg {
+    display: none;
+  }
+
+  .linkdin-svg {
+    display: none;
+  }
+
+  .instagram-svg {
+    display: none;
+  }
+
+  .twitter-svg {
+    display: none;
+  }
+
+}
+
+@media (min-width:576px) {
+  .d-none {
+    display: none;
+  }
+
+  .bg-img::after {
+    top: 50%;
+    width: 100%;
+    height: 57%;
+  }
+
+  .facebook-svg-2 {
+    display: none;
+  }
+
+  .linkdin-svg-2 {
+    display: none;
+  }
+
+  .instagram-svg-2 {
+    display: none;
+  }
+
+  .twitter-svg-2 {
+    display: none;
+  }
+}
+
+@media (min-width:1200px) {
+  .col-xl-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media (max-width:1199.98px) {
+  .ellipse-img {
+    margin-top: 130px;
+    margin-left: 40px;
+  }
+
+  .line-img {
+    margin-top: 100px;
+    margin-left: 5px;
+  }
+
+  .diamond-img {
+    margin-top: 90px;
+  }
+
+  .group-img {
+    margin-top: 90px;
+  }
+
+  .facebook-svg {
+    top: 29%;
+  }
+
+  .linkdin-svg {
+    top: 45%;
+  }
+
+  .twitter-svg {
+    top: 78%;
+  }
+
+  .instagram-svg {
+    top: 62%
+  }
+
+  .max-width-590 {
+    max-width: 590px;
+  }
+}
+
+@media(min-width: 1200px) {
+  .bg-img::after {
+    top: 0%;
+    width: 50%;
+    height: 100%;
+  }
+}
+
+@media (max-width:440px) {
+  .group-img-2 {
+    padding-left: 25px;
+  }
+}
+
+@media (min-width:440px) {
+  .facebook-svg-2 {
+    left: 17%;
+  }
+
+  .twitter-svg-2 {
+    left: 97%;
+  }
+
+  .instagram-svg-2 {
+    left: 70%
+  }
+
+  .linkdin-svg-2 {
+    left: 44%;
+  }
+
+}
